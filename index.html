@@ -3,35 +3,62 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="A website showcasing Runbin Zhou's online resume">
+        <link type="text/css" rel="stylesheet" href="index.css">
         <title>Home | Resume</title>
     </head>
     <body>
-        <!-- Start of the Header-->
-        <header>
-            <h1>Runbin Zhou</h1>
-            <p>My Online Resume</p>
-        </header>
-        <!-- Navigation starts here-->
-        <nav>
-            <ul>
-                <li><a href="">Runbin's Profile</a></li>
-                <li><a href="">Runbin's Education</a></li>
-                <li><a href="">Runbin's Projects</a></li>
-                <li><a href="">Runbin's Certifications</a></li>
-                <li><a href="">Runbin's Work Experience</a></li>
-                <li><a href="">Runbin's Activities</a></li>
-            </ul>
-        </nav>
-        <!-- Start of Main-->
-        <main>
-            <h3>Home</h3>
-            <p>
-                My name is Runbin Zhou, and I am a full-time student second-year student studying Computer Science at Boston University.
-            </p>
-        </main>
-    <!-- Footer starts here-->
-    <footer>
-        <p>All rights reserved by Runbin Zhou: <a href="">Credits</a> &#169;</p>
-    </footer>
+        <div id="page-wrapper">
+<!--         Start of the Header-->
+            <header>
+                <h1>Runbin Zhou</h1>
+                <p>My Online Resume</p>
+            </header>
+            <div id="container">
+<!--            Navigation starts here-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Runbin's Profile</a></li>
+                        <li><a href="/education/education.html">Runbin's Education</a></li>
+                        <li><a href="/projects/project.html">Runbin's Projects</a></li>
+                        <li><a href="/certifications/certifications.html">Runbin's Certifications</a></li>
+                        <li><a href="/work/work.html">Runbin's Work Experience</a></li>
+                        <li><a href="/activities/activities.html">Runbin's Activities</a></li>
+                    </ul>
+                </nav>
+<!--            End of Navigation-->
+<!--            Start of Main Content-->
+                <main>
+<!--                One Column Start-->
+                    <h3 id="main-title">Home</h3>
+<!--                Two column layout for about me-->
+                    <div id="main">
+                        <div id="main=image">
+                            <img id="profile-image" src="profile_25.jpg" alt="Runbin Zhou's Profile Picture">
+                        </div>
+                        <div id="main-text">
+                            <p>
+                                My name is Runbin Zhou, and I am a full-time student second-year student studying Computer Science at Boston University.
+                                I'm interested in learning more about the applications of computer science on our daily lives. Some current technology trends
+                                that I'm interested in include: machine learning, blockchain, and cloud computing. My favorite CS class I've taken so far is
+                                CS460 - Database Systems.
+                            </p>
+                        </div>
+                    </div>
+<!--                End of two column-->
+                    <p>
+                        Welcome to my personal website! Here you'll find various information about me including my <strong><em><u>Work Experience</u></em></strong> and my
+                        <strong><em><u>Projects</u></em></strong>. You will also be able to see my <strong><em><u>Certifications</u></em></strong> and what type of
+                        <strong><em><u>Activities</u></em></strong> I've been involved with. Hope you enjoy my work!
+                    </p>
+<!--                One Column end-->
+                </main>
+<!--            End of Main Content -->
+            </div>
+<!--        Footer starts here-->
+            <footer>
+                <p>All rights reserved by Runbin Zhou: <a href="credits/credits.html">Credits</a> &#169;</p>
+            </footer>
+<!--        Footer ends here-->
+        </div>
     </body>
 </html>
