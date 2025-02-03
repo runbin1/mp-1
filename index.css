@@ -56,7 +56,7 @@ main{
 }
 main p{
     margin: 0 1vw;
-    font-size: calc(1.75px + 1.75vw);
+    font-size: calc(2px + 1.75vw);
 }
 #profile-image{
     max-width: 100%;
