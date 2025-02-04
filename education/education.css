@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Centering the page*/
+#page-wrapper{
+    width: 80vw;
+    margin: 0 auto;
+}
+/*Header starts*/
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 1vw;
+    background-color: lightblue;
+    color: darkslategray;
+}
+/*Header ends*/
+/*Two column container starts:*/
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: aliceblue;
+}
+nav{
+    width: 30%;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: skyblue;
+    font-size: calc(2px + 2vw);
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+nav li{
+    font-size: calc(3px + 3vw);
+    width: 90%;
+    background-color:lightseagreen;
+    padding: 2vh 0;
+    margin: 5vh auto;
+    border-radius: 4vh 0.5vw;
+}
+nav a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    background-color: lightsteelblue;
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 2vw;
+}
+#bu-image{
+    max-width: 100%;
+    width:40%;
+    margin: 1vh 1vw;
+}
+#bths-image{
+    max-width: 100%;
+    width:40%;
+    margin: 1vh 1vw;
+}
+main h2{
+    margin: 0 1vw;
+    font-size: calc(2px + 1.75vw);
+}
+#college{
+    align-self: center;
+    width: 60%;
+    margin: 1vh 1vw;
+    font-family: "Montserrat", "Times New Roman", serif;
+}
+#high-school{
+    align-self: center;
+    width: 60%;
+    margin: 1vh 1vw;
+    font-family: "Montserrat", "Times New Roman", serif;
+}
+#main-title{
+    margin: 2vw 0;
+    text-align: center;
+    font-size: calc(2px + 2vw);
+    color: darkblue;
+}
+/*Two column container ends*/
+footer{
+    background-color: lightblue;
+    color: darkblue;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer a{
+    color: darkslategray;
+}
+@media screen and (max-width: 900px) {
+    header{
+        align-items: center;
+    }
+    #container{
+        width: 100%;
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: skyblue;
+        list-style: none;
+        padding-left: 0;
+    }
+    nav li{
+        font-size: calc(2px + 1.5vw);
+        background-color:lightseagreen;
+        padding: 1% .5%;
+        margin: 1% .5%;
+        border-radius: 4vh 0.5vw;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height:auto;
+        background-color: lightsteelblue;
+    }
+    #main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #college{
+        align-self: center;
+        width: 100%;
+        margin: 1vh 1vw;
+        font-family: "Montserrat", "Times New Roman", serif;
+    }
+    #high-school{
+        align-self: center;
+        width: 100%;
+        margin: 1vh 1vw;
+        font-family: "Montserrat", "Times New Roman", serif;
+    }
+    #bu-image{
+        max-width: 100%;
+        width:40%;
+        margin: 1vh auto;
+    }
+    #bths-image{
+        max-width: 100%;
+        width:40%;
+        margin: 1vh auto;
+    }
+    #main-title{
+        text-align: center;
+        color: darkblue;
+    }
+}
