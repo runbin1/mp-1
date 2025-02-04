@@ -22,7 +22,7 @@ header{
     display: flex;
     flex-direction: row;
     position: relative;
-    background-color: aliceblue;
+    background-color: lightsteelblue;
 }
 nav{
     width: 30%;
