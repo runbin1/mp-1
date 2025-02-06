@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", "Times New Roman", serif;
 }
 /*Centering the page*/
 #page-wrapper{
@@ -16,7 +17,6 @@ header{
     color: darkslategray;
 }
 /*Header ends*/
-/*Two column container starts:*/
 #container{
     width: 100%;
     display: flex;
@@ -90,7 +90,6 @@ main h2{
     font-size: calc(2px + 2vw);
     color: darkblue;
 }
-/*Two column container ends*/
 footer{
     background-color: lightblue;
     color: darkblue;

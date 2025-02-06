@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", "Times New Roman", serif;
 }
 /*Centering the page*/
 #page-wrapper{
@@ -16,7 +17,6 @@ header{
     color: darkslategray;
 }
 /*Header ends*/
-/*Two column container starts:*/
 #container{
     width: 100%;
     display: flex;
@@ -48,14 +48,78 @@ nav li{
 nav a{
     text-decoration: none;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    background-color: lightsteelblue;
+}
 #main-title{
     margin: 2vw 0;
     text-align: center;
     font-size: calc(2px + 2vw);
     color: darkblue;
 }
-
-/*Two column container ends*/
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#calculator {
+    background-image: url('stars.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 2vh 5vw;
+    padding: 5vw;
+    border-radius: 5vw;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 50vh;
+}
+#label{
+    font-size: calc(2px + 2vw);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+    height:  30vh;
+}
+input{
+    font-size: calc(1px + 1vw);
+    padding: 1vw;
+    box-sizing: border-box;
+}
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1vw;
+    width: 100%;
+    align-items: center;
+}
+button{
+    padding: 1vh 1.25vw;
+    font-size: 1.5vw;
+    background: cornflowerblue;
+    border: none;
+    border-radius: 1vw;
+}
+#output {
+    text-align: center;
+    font-size: 2vw;
+    margin: 1vw;
+    background: white;
+    padding: 2vw;
+    border-radius: 1vw;
+    width: 100%;
+}
 footer{
     background-color: lightblue;
     color: darkblue;
@@ -99,5 +163,64 @@ footer a{
     #main-title{
         text-align: center;
         color: darkblue;
+    }
+    #main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    #calculator {
+        background-image: url('stars.jpg');
+        background-size: cover;
+        background-position: center;
+        margin: 2vh 5vw;
+        padding: 5vw;
+        border-radius: 5vw;
+        color: deeppink;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        height: 50vh;
+    }
+    #label{
+        font-size: calc(2px + 2vw);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 30vw;
+        height:  30vh;
+    }
+    input{
+        font-size: calc(1px + 1vw);
+        padding: 1vw;
+        box-sizing: border-box;
+    }
+    #buttons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 1vw;
+        width: 100%;
+        align-items: center;
+    }
+    button{
+        padding: 1vh 1.25vw;
+        font-size: 1.5vw;
+        background: cornflowerblue;
+        border: none;
+        border-radius: 1vw;
+    }
+    #output {
+        text-align: center;
+        font-size: 2vw;
+        margin: 1vw;
+        background: white;
+        padding: 2vw;
+        border-radius: 1vw;
+        width: 100%;
     }
 }
