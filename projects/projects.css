@@ -51,7 +51,7 @@ nav a{
 main{
     display: flex;
     flex-direction: column;
-    width:100%;
+    width:70%;
     height:auto;
     background-color: lightsteelblue;
 }

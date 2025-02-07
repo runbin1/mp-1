@@ -80,7 +80,7 @@ function expo() {
     document.getElementById('output').innerHTML = String(result);
 }
 
-function Clear() {
+function clearr() {
     document.getElementById('first-input').value = "";
     document.getElementById('second-input').value = "";
     document.getElementById('output').innerHTML = "";
